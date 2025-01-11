@@ -1,0 +1,74 @@
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600px;
+}
+.header {
+  max-width: 1280px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.green {
+  color: green;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border-color: #006a50;
+}
+.bn-2 {
+  color: #0e0e0e;
+  opacity: 50%;
+  display: flex;
+}
+
+.btn-primary {
+  background-color: #006a50;
+  color: white;
+  border-radius: 5px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 50px 35px 200px 50px; */
+  background-color: #c6e4d6;
+  border-radius: 5px;
+}
+.banner-content {
+  max-width: 622px;
+  height: 326px;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.hero {
+  width: 474.03px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 80px;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
