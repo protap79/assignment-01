@@ -1,7 +1,20 @@
 .fira-sans-normal {
   font-family: "Fira Sans", serif;
   font-weight: 400;
+  margin-left: 100px;
+  margin-right: 60px;
   font-style: normal;
+}
+header {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+main {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.sec-1 {
+  margin-top: 100px;
 }
 
 nav {
@@ -73,8 +86,8 @@ nav ul li {
   display: flex;
 }
 .hero {
-  width: 350px;
-  height: 300px;
+  /* width: 350px; */
+  /* height: 300px; */
   max-width: full;
   justify-content: center;
   align-items: center;
@@ -87,17 +100,24 @@ nav ul li {
 }
 
 .pillars {
+  margin-top: 20px;
   display: flex;
+
   justify-content: space-between;
-  margin: 50px;
+}
+.pill {
+  font-weight: bold;
+  font-size: 40px;
 }
 .pillar {
   padding: 15px;
-  margin: 50px 35px 50px;
+  /* margin: 50px 35px 50px; */
   border: 1px solid #b9bcbc;
+  margin-right: 20px;
+  box-shadow: white 1px 1px;
+  background-color: white;
   border-radius: 5px;
   outline: gray;
-  box-shadow: white;
 }
 .vision {
   justify-content: space-between;
