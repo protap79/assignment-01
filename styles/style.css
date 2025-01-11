@@ -33,35 +33,49 @@ nav ul li {
   border-radius: 5px;
   border-color: #006a50;
 }
+.idea {
+  /* text-shadow: 2px 2px 5px #006a50; */
+  font-weight: bold;
+  font-size: 40px;
+}
 .bn-2 {
   color: #0e0e0e;
-  opacity: 50%;
-  display: flex;
+  opacity: 70%;
+
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -20px;
+  /* display: flex; */
 }
 
 .btn-primary {
   background-color: #006a50;
+  outline: none;
+  border: none;
   color: white;
-  border-radius: 5px;
+  padding: 15px 30px;
+  border-radius: 8px;
 }
 
 .banner {
   display: flex;
-  justify-content: space-between;
+  /* flex: 1; */
+  justify-content: space-around;
   background-color: #c6e4d6;
   border-radius: 5px;
 }
 .banner-content {
-  max-width: 622px;
-  height: 326px;
+  max-width: full;
+  /* height: 326px; */
   padding-left: 20px;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 .hero {
-  width: 474.03px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
+  max-width: full;
   justify-content: center;
   align-items: center;
   padding: 100px 80px;
@@ -182,9 +196,15 @@ nav ul li {
   margin: 50px;
   padding: 15px;
 }
-
+.today {
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 10px;
+}
 .amount {
   display: flex;
+  gap: 70px;
   justify-content: center;
   margin: auto;
   padding: 20px;
