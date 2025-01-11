@@ -48,7 +48,6 @@ nav ul li {
 .banner {
   display: flex;
   justify-content: space-between;
-  /* margin: 50px 35px 200px 50px; */
   background-color: #c6e4d6;
   border-radius: 5px;
 }
@@ -76,7 +75,7 @@ nav ul li {
 .pillars {
   display: flex;
   justify-content: space-between;
-  margin: 50px 35px 50px;
+  margin: 50px;
 }
 .pillar {
   padding: 15px;
@@ -85,4 +84,95 @@ nav ul li {
   border-radius: 5px;
   outline: gray;
   box-shadow: white;
+}
+.vision {
+  justify-content: space-between;
+  margin: 50px 35px 50px;
+  display: flex;
+}
+/* .vision-cards {
+  padding: 15px;
+  margin: 50px 35px 50px;
+  border: 1px solid #b9bcbc;
+  border-radius: 5px;
+  outline: gray;
+  box-shadow: white;
+} */
+
+.vision-container {
+  justify-content: center;
+  padding-left: 15px;
+  margin: 50px;
+  align-items: center;
+}
+.vision-cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 35px 50px;
+}
+.vision-cards-1 {
+  padding: 15px;
+  margin: 50px 35px 50px;
+  border: 1px solid #b9bcbc;
+  border-radius: 5px;
+  outline: gray;
+  box-shadow: white;
+  background-color: #a3c3fc;
+}
+.btn-1 {
+  background-color: #5490f5;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+.vision-cards-2 {
+  padding: 15px;
+  margin: 50px 35px 50px;
+  border: 1px solid #b9bcbc;
+  border-radius: 5px;
+  outline: gray;
+  box-shadow: white;
+  background-color: #c6e4d6;
+}
+.btn-2 {
+  background-color: #09a15c;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+.vision-cards-3 {
+  padding: 15px;
+  margin: 50px 35px 50px;
+  border: 1px solid #b9bcbc;
+  border-radius: 5px;
+  outline: gray;
+  box-shadow: white;
+  background-color: #f7ebcf;
+}
+.btn-3 {
+  background-color: #ffc239;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.recent {
+  display: flex;
+  margin: auto;
+}
+.recent-news-holder {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 15px;
+}
+.image1 {
+  border-radius: 24px;
+}
+.satellite {
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 15px;
 }
